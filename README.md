@@ -16,5 +16,8 @@ param : PropTypes.string.isRequired check
 01. Life Cycle
 02. state, setState
 03. ...this.state.pics,
-
+04. rfce 로 dumdum component를 만들면
+Propsread-only가 된다. this.props.pram 에서 pram으로 변경
+05. promise : asynchronous program
+06. props의 key는 느리다.
 ## ETC..
