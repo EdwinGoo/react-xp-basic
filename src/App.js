@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
-import Movie from './Movie'
+import Pic from './Pic'
 
-// const movieTitles = [
+// const picTitles = [
 //   "LEE JI EUN",
 //   "The Wolf of wallstreet",
 //   "baby driver",
 // ]
 
-// const movieImg = [
+// const picImg = [
 //   "https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg",
 //   "https://img.ilfoglio.it/resizer/-1/-1/true/redazione/articoli/old/21/2014/01/87577/wallstreet.jpg--.jpg",
 //   "http://www.extrafeatures.ca/wp-content/uploads/2017/10/Baby-Driver.jpg",
 // ]
 
-const movies = [
+const pics = [
   {
     title : "LEE JI EUN",
     poster : "https://www.billboard.com/files/styles/article_main_image/public/media/IU-Palatte-vid-2017-billboard-1548.jpg"
@@ -30,19 +30,29 @@ const movies = [
   }
 ]
 export class App extends Component {
+  componentWillMount(){
+    console.log("component Will Mount");
+    
+  }
+
   render() {
     return (
       <div className="App">
-        {/* <Movie title = {movieTitles[0]} img = {movieImg[0]}/>
-        <Movie title = {movieTitles[1]} img = {movieImg[1]}/>
-        <Movie title = {movieTitles[2]} img = {movieImg[2]}/>
-        <Movie title = {movieTitles[3]} img = {movieImg[3]}/> */}
-        {movies.map((movie, index) => {
-          return( <Movie key={index} title={movie.title} poster={movie.poster}/>)
+        {/* <Pic title = {picTitles[0]} img = {picImg[0]}/>
+        <Pic title = {picTitles[1]} img = {picImg[1]}/>
+        <Pic title = {picTitles[2]} img = {picImg[2]}/>
+        <Pic title = {picTitles[3]} img = {picImg[3]}/> */}
+        {pics.map((pic, index) => {
+          return( <Pic key={index} title={pic.title} poster={pic.poster}/>)
         })} 
       </div>
     )
   }
+
+  componentDidMount(){
+    console.log("component Did Mount");
+  }
+
 }
 
 export default App

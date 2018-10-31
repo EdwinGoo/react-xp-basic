@@ -11,4 +11,9 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Ar
 04. recp에서 p의 역할
 PropTypes을 의미한다. 부모 컴퍼넌트에서 넘어오는 Props의 상태를 확인할 수 있다.
 param : PropTypes.string.isRequired check 
+
+### `day 02`
+01. Life Cycle
+
+
 ## ETC..
