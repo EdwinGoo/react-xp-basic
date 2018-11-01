@@ -105,8 +105,4 @@ export class App extends Component {
   }
 }
 
-//test branch set
-
-
-
 export default App
