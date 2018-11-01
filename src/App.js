@@ -99,10 +99,14 @@ export class App extends Component {
         <Picture title = {picTitles[1]} img = {picImg[1]}/>
         <Picture title = {picTitles[2]} img = {picImg[2]}/>
         <Picture title = {picTitles[3]} img = {picImg[3]}/> */}
-        {this.state.pics ? this._renderimage():'Loading'} 
+        {this.state.pics ? this._renderimage():' Loading '} 
       </div>
     )
   }
 }
+
+//test branch set
+
+
 
 export default App
