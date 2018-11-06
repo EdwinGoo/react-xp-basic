@@ -24,6 +24,9 @@ Propsread-only가 된다. this.props.pram 에서 pram으로 변경
 ### `day 03`
 01. branch에 대해서 공부
 02. git checkout -b firstbranch // 로컬에 만들어진다.
-03. git push origin firstbranch 를 통해서 git에 업로드
+03. git push origin firstbranch 를 통해서 git에 업로드(커밋하고..? 난 함..)
+04. git checkout master 돌아오면 원복됨
+05. git branch -d firstbranch // 로컬에서 삭제
+06. branch를 올리고 Pull Requests를 통해서 기여!
 
 ## ETC..
