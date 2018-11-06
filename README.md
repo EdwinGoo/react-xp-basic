@@ -20,4 +20,12 @@ param : PropTypes.string.isRequired check
 Propsread-only가 된다. this.props.pram 에서 pram으로 변경
 05. promise : asynchronous program
 06. props의 key는 느리다.
+
+### `day 03`
+01. branch에 대해서 공부
+02. git checkout -b firstbranch // 로컬에 만들어진다.
+03. git push origin firstbranch 를 통해서 git에 업로드
+
+
+
 ## ETC..
