@@ -14,7 +14,7 @@ import Picture from './Picture'
 //   "http://www.extrafeatures.ca/wp-content/uploads/2017/10/Baby-Driver.jpg",
 // ]
 
-export class App extends Component {
+export class MovieContent extends Component {
   // componentWillMount(){
   //   console.log("component Will Mount");
   // }
@@ -106,4 +106,4 @@ export class App extends Component {
 }
 
 
-export default App
+export default MovieContent
