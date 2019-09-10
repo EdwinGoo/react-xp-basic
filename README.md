@@ -1,6 +1,6 @@
 ## Notice
 
-학습하고 배운 점을 정리한다. 
+자꾸 까먹는다..
 
 ### `day 01`
 01. rcc / rce / recp / rfce
